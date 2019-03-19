@@ -3,7 +3,7 @@
 
 // Plugins
 const plugins = [{
-  location: "/Users/catseye/Desktop/plant-bb",
+  location: "/Users/catseye/Desktop/plant-bb/client-side",
   plugins: [],
   hooks: {}
 }]
