@@ -14,11 +14,11 @@
     "axios": "^0.18.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-hot-loader": "^4.3.12",
-    "react-static": "^6.0.18"
+    "react-hot-loader": "^4.3.12"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
+    "react-static": "^6.3.6",
     "serve": "10.1.1"
   }
 }
