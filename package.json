@@ -8,7 +8,7 @@
     "client-side": "cd client-side && npm start",
     "server-side-dev": "cd server-side && npm run dev",
     "server-side-prod": "cd server-side && npm start",
-    "start": "concurrently -kill-others \"npm run server-side-prod\" \"npm run client-side\"",
+    "start": "concurrently -kill-others \"npm install | npm run server-side-prod\" \"npm install | npm run client-side\"",
     "dev": "concurrently -kill-others \"npm run server-side-dev\" \"npm run client-side\""
   },
   "repository": {
