@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "heroku-postbuild": "cd client-side && npm install --dev",
+    "heroku-postbuild": "cd client-side && npm install --dev && cd ../server-side && npm install --dev",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client-side-dev": "cd client-side && npm run dev",
     "client-side-prod": "cd client-side && npm start",
