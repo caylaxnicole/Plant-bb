@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "react-static start",
-    "start": "serve dist -p 3000",
+    "start": "serve dist -p 80 -s",
     "stage": "react-static build --staging",
     "build": "react-static build",
     "bundle": "react-static bundle",
