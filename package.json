@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "heroku-prebuild": "concurrently -kill-others \"cd client-side && npm install --dev\" \"cd server-side && npm install\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client-side-dev": "cd client-side && npm run dev",
-    "client-side-prod": "cd client-side && npm install && npm start",
+    "client-side-prod": "cd client-side && npm start",
     "server-side-dev": "cd server-side && npm run dev",
-    "server-side-prod": "cd server-side && npm install && npm start",
+    "server-side-prod": "cd server-side && npm start",
     "start": "concurrently -kill-others \"npm run server-side-prod\" \"npm run client-side-prod\"",
     "dev": "concurrently -kill-others \"npm run server-side-dev\" \"npm run client-side-dev\""
   },
