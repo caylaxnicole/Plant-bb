@@ -2,7 +2,8 @@
   "name": "client-side",
   "private": true,
   "scripts": {
-    "start": "react-static start",
+    "dev": "react-static start",
+    "start": "serve dist -p 3000",
     "stage": "react-static build --staging",
     "build": "react-static build",
     "bundle": "react-static bundle",
