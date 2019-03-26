@@ -12,14 +12,16 @@
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
+    "acorn": "^6.1.1",
     "axios": "^0.18.0",
+    "core-js": "^3.0.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-hot-loader": "^4.3.12"
+    "react-hot-loader": "^4.3.12",
+    "react-static": "^6.3.6"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
-    "react-static": "^6.3.6",
     "serve": "10.1.1"
   }
 }
