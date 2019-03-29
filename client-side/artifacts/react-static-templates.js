@@ -1,22 +1,10 @@
 
-import universal, { setHasBabelPlugin } from '/Users/catseye/Desktop/plant-bb/client-side/node_modules/react-universal-component/dist/index.js'
 
 
-setHasBabelPlugin()
-
-const universalOptions = {
-  loading: () => null,
-  error: props => {
-    console.error(props.error);
-    return <div>An error occurred loading this page's template. More information is available in the console.</div>;
-  },
-}
-
-const t_0 = universal(import('../src/pages/404.js'), universalOptions)
-const t_1 = universal(import('../src/pages/about.js'), universalOptions)
-const t_2 = universal(import('../src/pages/blog.js'), universalOptions)
-const t_3 = universal(import('../src/pages/index.js'), universalOptions)
-
+import t_0 from '../src/pages/404.js'
+import t_1 from '../src/pages/about.js'
+import t_2 from '../src/pages/blog.js'
+import t_3 from '../src/pages/index.js'
 
 // Template Map
 export default {

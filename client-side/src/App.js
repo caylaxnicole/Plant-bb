@@ -8,6 +8,7 @@ function App() {
   return (
     <Root>
       <nav>
+        <div> Plant bb</div>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/blog">Blog</Link>
