@@ -1,54 +1,63 @@
-@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 
 body {
-  color: #77af77;
-  font-family: 'Grand Hotel', cursive;
+  color:#5f451d;
+  font-family: 'Berkshire Swash', cursive;
   font-size: 20px;
   margin: 0;
   padding: 0;
-  background-image: image()
+  background-color: initial;
 }
 
 a {
   text-decoration: none;
-  color: #108db8;
+  color:#5f451d;
   
-}
-
-img {
-  max-width: 100%;
 }
 
 nav {
   width: 100%;
   height: 60px;
-  background: white;
+  background: transparent;
 }
 
 nav a {
   float: right;
-  color: #77af77;
+  color: #5f451d;
   font-size: 20px;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 nav div {
   float: left;
-  color: #77af77;
+  color: white;
   font-size: 20px;
   padding: 1rem;
-  margin-left: 9px;
 }
 
 .content {
-  padding: 1rem;
+  padding: 4rem;
 }
 
-.bg-img {
-  background-image: url("img/background-tropical-leaves.jpg");
-  min-height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
+html {
+  background: url("img/monstera-leaves.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  position: relative;
+}
+
+.c-slides {
+  height: 70vh;
+  background-color: white;
+  color: #5f451d;
+}
+
+.c-slides h3, p{
+  color: #5f451d
+}
+
+img {
+  height: 400px;
+  width: auto;
 }

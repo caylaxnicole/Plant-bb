@@ -1,6 +1,7 @@
 import React from 'react'
 import { Root, Routes } from 'react-static'
 import { Link } from '@reach/router'
+import 'bootstrap/dist/css/bootstrap.css';
 
 import './app.css'
 
@@ -10,8 +11,8 @@ function App() {
       <nav>
         <div> Plant bb</div>
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
+        <Link to="/sign-up">Sign-up</Link>
+        <Link to="/blog">Sign-in</Link>
       </nav>
       <div className="content">
         <Routes />
