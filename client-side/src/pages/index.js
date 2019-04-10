@@ -1,7 +1,7 @@
 import React from 'react'
 import { withSiteData } from 'react-static'
-import Carousel from 'react-bootstrap/Carousel'
-import Button from 'react-bootstrap/Button'
+import { Carousel, Button } from 'react-bootstrap'
+// import Button from 'react-bootstrap/Button'
 import plant1 from '../img/plant1.jpeg'
 import plantNursery from '../img/Plant-Nursery-Vector.jpg'
 

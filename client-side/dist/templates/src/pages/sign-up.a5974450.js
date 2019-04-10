@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{52:function(e,n,t){"use strict";t.r(n);var l=t(0),r=t.n(l);n.default=function(){return r.a.createElement("div",null,r.a.createElement("p",null,"Sign-up form will go here"))}}}]);

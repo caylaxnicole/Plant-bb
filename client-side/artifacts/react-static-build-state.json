@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/catseye/Desktop/plant-bb/client-side/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/catseye/Desktop/plant-bb/client-side/src/pages"
+      }
+    ],
+    "/Users/catseye/Desktop/plant-bb/client-side/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/catseye/Desktop/plant-bb/client-side/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/catseye/Desktop/plant-bb/client-side"
+  ],
+  "paths": {
+    "ROOT": "/Users/catseye/Desktop/plant-bb/client-side",
+    "SRC": "/Users/catseye/Desktop/plant-bb/client-side/src",
+    "DIST": "/Users/catseye/Desktop/plant-bb/client-side/dist",
+    "ASSETS": "/Users/catseye/Desktop/plant-bb/client-side/dist",
+    "PLUGINS": "/Users/catseye/Desktop/plant-bb/client-side/plugins",
+    "TEMP": "/Users/catseye/Desktop/plant-bb/client-side/tmp",
+    "ARTIFACTS": "/Users/catseye/Desktop/plant-bb/client-side/artifacts",
+    "PUBLIC": "/Users/catseye/Desktop/plant-bb/client-side/public",
+    "NODE_MODULES": "/Users/catseye/Desktop/plant-bb/client-side/node_modules",
+    "EXCLUDE_MODULES": "/Users/catseye/Desktop/plant-bb/client-side/node_modules",
+    "PACKAGE": "/Users/catseye/Desktop/plant-bb/client-side/package.json",
+    "HTML_TEMPLATE": "/Users/catseye/Desktop/plant-bb/client-side/dist/index.html",
+    "STATIC_DATA": "/Users/catseye/Desktop/plant-bb/client-side/dist/staticData"
+  },
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "http://localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

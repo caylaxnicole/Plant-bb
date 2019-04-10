@@ -1,8 +1,11 @@
 import React from 'react'
 import { Root, Routes } from 'react-static'
-import { Link } from '@reach/router'
-import 'bootstrap/dist/css/bootstrap.css';
+import { Link, Router } from '@reach/router'
+// import Dynamic from 'containers/Dynamic'
+
 import logo from 'img/icon-sprout.png'
+
+import 'bootstrap/dist/css/bootstrap.css';
 import './app.css'
 
 function App() {
@@ -17,7 +20,12 @@ function App() {
         <Link to="/blog">Sign-in</Link>
       </nav>
       <div className="content">
-        <Routes />
+        <React.Suspense fallback={<em>Loading...</em>}>
+          <Router>
+            {/* <Dynamic path="dynamic" /> */}
+            <Routes path="*" />
+          </Router>
+        </React.Suspense>
       </div>
     </Root>
   )
